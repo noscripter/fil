@@ -21,26 +21,20 @@ body {
       background: #1E001E;
       display: inline-block;
       border-radius: 10px; }
-      .header__logo a:before {
+      .header__logo a:after, .header__logo a:before {
         width: 11px;
         height: 11px;
-        margin-left: 12px;
         margin-top: 15px;
         display: inline-block;
         position: absolute;
-        background: #FFDB51;
         content: "";
         border-radius: 50%; }
       .header__logo a:after {
-        width: 11px;
-        height: 11px;
         margin-left: 28px;
-        margin-top: 15px;
-        display: inline-block;
-        position: absolute;
-        background: #4A99FF;
-        content: "";
-        border-radius: 50%; }
+        background: #4A99FF; }
+      .header__logo a:before {
+        margin-left: 12px;
+        background: #FFDB51; }
   .header__content {
     float: left;
     color: white; }
